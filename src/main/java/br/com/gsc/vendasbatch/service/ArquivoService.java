@@ -1,14 +1,10 @@
 package br.com.gsc.vendasbatch.service;
 
 import br.com.gsc.vendasbatch.layout.LayoutEnum;
-import br.com.gsc.vendasbatch.layout.TipoLayout;
 import br.com.gsc.vendasbatch.model.Arquivo;
 import br.com.gsc.vendasbatch.model.Pedido;
 import br.com.gsc.vendasbatch.model.ResumoVenda;
 import br.com.gsc.vendasbatch.model.Vendedor;
-import br.com.gsc.vendasbatch.layout.impl.ClienteTipoLayoutImpl;
-import br.com.gsc.vendasbatch.layout.impl.VendaTipoLayoutImpl;
-import br.com.gsc.vendasbatch.layout.impl.VendedorTipoLayoutImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

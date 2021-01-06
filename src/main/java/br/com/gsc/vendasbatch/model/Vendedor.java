@@ -1,5 +1,7 @@
 package br.com.gsc.vendasbatch.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -10,6 +12,8 @@ import java.util.Comparator;
 import java.util.List;
 
 @Getter
+@Builder
+@AllArgsConstructor
 @ToString
 public class Vendedor {
 

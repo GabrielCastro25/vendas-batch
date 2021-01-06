@@ -1,7 +1,6 @@
 package br.com.gsc.vendasbatch.model;
 
 import lombok.ToString;
-import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.HashMap;

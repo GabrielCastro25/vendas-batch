@@ -1,9 +1,9 @@
 package br.com.gsc.vendasbatch.layout.impl;
 
+import br.com.gsc.vendasbatch.layout.TipoLayout;
+import br.com.gsc.vendasbatch.model.Arquivo;
 import br.com.gsc.vendasbatch.model.ItemPedido;
 import br.com.gsc.vendasbatch.model.Pedido;
-import br.com.gsc.vendasbatch.model.Arquivo;
-import br.com.gsc.vendasbatch.layout.TipoLayout;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
