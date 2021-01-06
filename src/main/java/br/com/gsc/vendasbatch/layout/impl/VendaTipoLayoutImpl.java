@@ -1,18 +1,18 @@
-package br.com.gsc.vendasbatch.service.impl;
+package br.com.gsc.vendasbatch.layout.impl;
 
 import br.com.gsc.vendasbatch.model.ItemPedido;
 import br.com.gsc.vendasbatch.model.Pedido;
 import br.com.gsc.vendasbatch.model.Arquivo;
-import br.com.gsc.vendasbatch.service.LayoutService;
+import br.com.gsc.vendasbatch.layout.TipoLayout;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VendaLayoutServiceImpl implements LayoutService {
+public class VendaTipoLayoutImpl implements TipoLayout {
 
     @Override
-    public void processar(String[] partes, Arquivo consolidado) {
+    public void processar(final String[] partes, final Arquivo consolidado) {
         final var pedido = new Pedido();
         pedido.setId(Integer.parseInt(partes[1]));
         final var vendedor = partes[3];

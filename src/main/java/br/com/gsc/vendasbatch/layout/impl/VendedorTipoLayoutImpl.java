@@ -1,15 +1,15 @@
-package br.com.gsc.vendasbatch.service.impl;
+package br.com.gsc.vendasbatch.layout.impl;
 
 import br.com.gsc.vendasbatch.model.Arquivo;
 import br.com.gsc.vendasbatch.model.Vendedor;
-import br.com.gsc.vendasbatch.service.LayoutService;
+import br.com.gsc.vendasbatch.layout.TipoLayout;
 
 import java.math.BigDecimal;
 
-public class VendedorLayoutServiceImpl implements LayoutService {
+public class VendedorTipoLayoutImpl implements TipoLayout {
 
     @Override
-    public void processar(String[] partes, Arquivo consolidado) {
+    public void processar(final String[] partes, final Arquivo consolidado) {
         final var vendedor = new Vendedor();
         vendedor.setCpf(partes[1]);
         vendedor.setNome(partes[2]);
